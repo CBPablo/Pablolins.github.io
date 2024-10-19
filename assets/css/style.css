@@ -97,10 +97,10 @@ body {
     height: 2rem;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
     font-size: x-large;
     transition: 1s;
-    margin: .5rem 0rem .2rem 0rem;
+    margin: .2rem 0rem .2rem 0rem;
 }
 
 .acordeon button {
@@ -112,34 +112,56 @@ body {
     align-items: flex-start;
     text-align: start;
     width: 100%;
+    transition: 1s;
+}
+.acordeon button img{
+    transition: 1s;
 }
 
 .acordeon.ativo {
     border-color: #55569E;
     background-color: #55569E;
     border-radius: 1.5rem;
-    height: 200px;
-    display: inline-block;   
+   
+    display: flex;  
+    height: min-content;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    transition: 1s;
+
 }
 
 .ativo button img{
 transform: rotate(180deg);
+transition: 1s;
 }
 
 .acordeon .content {
     display: none;
+    transition: 1s;
 }
 
 .acordeon.ativo .content {
     display: flex;
+    transition: 1s;
 }
-
+.content ul{
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
 .content li {
     list-style-type: none;
     margin: 1rem 0rem 1rem 0rem;
+    width: 100%;
     display: flex;
     font-size: larger;
     flex-direction: column;
+    justify-content: flex-start;
+    transition: 1s;
 }
 
 .acordeon ul {
@@ -147,6 +169,8 @@ transform: rotate(180deg);
     flex-direction: colum;
     gap: 1rem; 
     width: 80%;
+    transition: 1s;
+
 }
 
 
