@@ -90,7 +90,10 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
-    width: 100%;
+    min-width: 100%;
+    min-height: auto;
+    height: fit-content;
+    width:fit-content;
     border-radius: 1.5rem;
     background-color: transparent;
     border: 1px solid #fff;
@@ -98,7 +101,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    font-size: x-large;
+    font-size:medium;
     transition: 1s;
     margin: .2rem 0rem .2rem 0rem;
 }
