@@ -9,9 +9,22 @@
 }
 .mundo-invertido{
     color: blue;
+    
+   
 }
 .mundo-invertido a{
     color: blue;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.content .mundo-invertido{
+    color: blue;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    font-size: xx-large;
 }
 html, body {
     height: 100%;
