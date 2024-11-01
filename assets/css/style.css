@@ -15,16 +15,23 @@
 .mundo-invertido a{
     color: blue;
     text-decoration: none;
-    background-color: black;
+    background-color: rgbargba(1,1,1,0.4 );
     border-radius: 10px;
-    font-size: xx-large;
+    font-size: x-large;
+}
+.mundo-invertido p{
+    color: gray;
+    font-size: large;
+}
+.mundo-invertido span{
+    color: gray;
 }
 .content .mundo-invertido{
     color: blue;
     text-decoration: none;
-    background-color: black;
+    background-color: rgba(1,1,1,0.4 );
     border-radius: 10px;
-    font-size: xx-large;
+    font-size: x-large;
 }
 html, body {
     height: 100%;
@@ -113,7 +120,7 @@ body {
     height: fit-content;
     width:fit-content;
     border-radius: 1.5rem;
-    background-color: transparent;
+    background-color:  rgba(1,1,1,0.4 );
     border: 1px solid #fff;
     height: 2rem;
     align-items: center;
@@ -127,7 +134,7 @@ body {
 .acordeon button {
     text-decoration: none;
     border: none;
-    background-color: transparent;
+    background-color:transparent;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -141,7 +148,7 @@ body {
 
 .acordeon.ativo {
     border-color: #55569E;
-    background-color: #55569E;
+    background-color:rgba(1,1,1,0.4 );
     border-radius: 1.5rem;
    
     display: flex;  
@@ -278,16 +285,18 @@ transition: 1s;
         text-align: center;
         justify-content: center;
         align-items: center;
+        transition: 1s;
     }
 
     .acordeon button {
         width: 100%;
         height: 50px;
+        transition: 1s;
     }
 
     .acordeon.ativo {
         border-color: #55569E;
-        background-color: #55569E;
+        background-color: rgba(1,1,1,0.4 );
         border-radius: 1.5rem;
         display: inline-block;   
     }
@@ -317,6 +326,7 @@ transition: 1s;
         padding: 10px;
         min-height: 100vh;
         overflow: visible;
+        transition: 1s;
     }
 
     .main {
@@ -364,11 +374,13 @@ transition: 1s;
     .information {
         height: 120px;
         margin: 0;
+        transition: 1s;
     }
 
     .squads {
         margin: 0;
         width: 60%;
+        transition: 1s;
     }
 
     .acordeon {
@@ -379,18 +391,21 @@ transition: 1s;
         text-align: center;
         justify-content: center;
         align-items: center;
+        transition: 1s;
     }
 
     .acordeon button {
         width: 100%;
         height: 50px;
+        transition: 1s;
     }
 
     .acordeon.ativo {
         border-color: #55569E;
-        background-color: #55569E;
+        background-color: rgba(1,1,1,0.4 );
         border-radius: 1.5rem;
-        display: inline-block;   
+        display: inline-block; 
+        transition: 1s;  
     }
 
     .content li {
@@ -398,6 +413,7 @@ transition: 1s;
         margin: 0;
         display: flex;
         font-size: larger;
+        transition: 1s;
     }
 }
 
